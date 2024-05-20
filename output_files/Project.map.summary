@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Apr 08 11:56:45 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Project
+Top-level Entity Name : foosball
+Family : MAX 10
+Total logic elements : 2,872
+    Total combinational functions : 2,872
+    Dedicated logic registers : 386
+Total registers : 386
+Total pins : 38
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

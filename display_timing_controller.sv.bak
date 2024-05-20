@@ -1,0 +1,64 @@
+module sync_generator #(
+    parameter integer HA = 96,
+    parameter integer HB = 144,
+    parameter integer HC = 784,
+    parameter integer HD = 800,
+    parameter integer VA = 2,
+    parameter integer VB = 35,
+    parameter integer VC = 515,
+    parameter integer VD = 525
+)(
+    input logic pixel_clk,
+    input logic reset,
+    output logic Hsync, Vsync,
+    output logic Hactive, Vactive,
+    output logic dena
+//	 parameter integer HA = 96,
+//    parameter integer HB = 144,
+//    parameter integer HC = 784,
+//    parameter integer HD = 800,
+//    parameter integer VA = 2,
+//    parameter integer VB = 35,
+//    parameter integer VC = 515,
+//    parameter integer VD = 525
+);
+
+    logic [($clog2(HD+1)-1):0] Hcount; // Adjusted for SystemVerilog
+    logic [($clog2(VD+1)-1):0] Vcount; // Adjusted for SystemVerilog
+
+    // Horizontal signal generator
+    always_ff @(posedge pixel_clk or negedge reset) begin
+        if (!reset) begin
+            Hcount <= 0;
+        end else begin
+            Hcount <= Hcount + 1;
+            if (Hcount == HA) Hsync <= 1;
+            else if (Hcount == HB) Hactive <= 1;
+            else if (Hcount == HC) Hactive <= 0;
+            else if (Hcount == HD) begin
+                Hsync <= 0;
+                Hcount <= 0;
+            end
+        end
+    end
+
+    // Vertical signal generator
+    always_ff @(posedge Hsync or negedge reset) begin
+        if (!reset) begin
+            Vcount <= 0;
+        end else begin
+            Vcount <= Vcount + 1;
+            if (Vcount == VA) Vsync <= 1;
+            else if (Vcount == VB) Vactive <= 1;
+            else if (Vcount == VC) Vactive <= 0;
+            else if (Vcount == VD) begin
+                Vsync <= 0;
+                Vcount <= 0;
+            end
+        end
+    end
+
+    // Dena generator
+    assign dena = Hactive && Vactive;
+
+endmodule

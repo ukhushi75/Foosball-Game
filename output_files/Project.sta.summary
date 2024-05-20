@@ -1,0 +1,341 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ball_speed[0]'
+Slack : -14.866
+TNS   : -1300.103
+
+Type  : Slow 1200mV 85C Model Setup 'reset'
+Slack : -10.304
+TNS   : -276.147
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider:paddle_clk_gen|temp'
+Slack : -9.835
+TNS   : -1762.276
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider:pixel_clk_gen|temp'
+Slack : -3.522
+TNS   : -20.547
+
+Type  : Slow 1200mV 85C Model Setup 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -3.371
+TNS   : -20.618
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.046
+TNS   : -162.400
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider:paddle_clk_gen|temp'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider:pixel_clk_gen|temp'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ball_speed[0]'
+Slack : 0.646
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reset'
+Slack : 2.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ball_speed[0]'
+Slack : -1.387
+TNS   : -119.036
+
+Type  : Slow 1200mV 85C Model Recovery 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -1.051
+TNS   : -10.453
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_divider:paddle_clk_gen|temp'
+Slack : -1.046
+TNS   : -156.231
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_divider:pixel_clk_gen|temp'
+Slack : -0.681
+TNS   : -7.433
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.655
+TNS   : -36.942
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : -0.091
+TNS   : -0.091
+
+Type  : Slow 1200mV 85C Model Removal 'clock_divider:paddle_clk_gen|temp'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clock_divider:pixel_clk_gen|temp'
+Slack : 0.554
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ball_speed[0]'
+Slack : 0.844
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.908
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ball_speed[0]'
+Slack : -3.000
+TNS   : -137.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -105.419
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:paddle_clk_gen|temp'
+Slack : -1.403
+TNS   : -269.376
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:pixel_clk_gen|temp'
+Slack : -1.403
+TNS   : -18.239
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -1.403
+TNS   : -16.836
+
+Type  : Slow 1200mV 0C Model Setup 'ball_speed[0]'
+Slack : -13.703
+TNS   : -1201.497
+
+Type  : Slow 1200mV 0C Model Setup 'reset'
+Slack : -9.393
+TNS   : -251.736
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider:paddle_clk_gen|temp'
+Slack : -8.958
+TNS   : -1605.748
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider:pixel_clk_gen|temp'
+Slack : -3.205
+TNS   : -17.664
+
+Type  : Slow 1200mV 0C Model Setup 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -3.059
+TNS   : -17.790
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.664
+TNS   : -142.342
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider:paddle_clk_gen|temp'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider:pixel_clk_gen|temp'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ball_speed[0]'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reset'
+Slack : 2.142
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ball_speed[0]'
+Slack : -1.065
+TNS   : -88.465
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_divider:paddle_clk_gen|temp'
+Slack : -0.923
+TNS   : -136.219
+
+Type  : Slow 1200mV 0C Model Recovery 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -0.912
+TNS   : -9.071
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_divider:pixel_clk_gen|temp'
+Slack : -0.592
+TNS   : -6.463
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.572
+TNS   : -31.792
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_divider:paddle_clk_gen|temp'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_divider:pixel_clk_gen|temp'
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ball_speed[0]'
+Slack : 0.838
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.944
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ball_speed[0]'
+Slack : -3.000
+TNS   : -137.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -105.419
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:paddle_clk_gen|temp'
+Slack : -1.403
+TNS   : -269.376
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:pixel_clk_gen|temp'
+Slack : -1.403
+TNS   : -18.239
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -1.403
+TNS   : -16.836
+
+Type  : Fast 1200mV 0C Model Setup 'ball_speed[0]'
+Slack : -6.171
+TNS   : -535.618
+
+Type  : Fast 1200mV 0C Model Setup 'reset'
+Slack : -3.968
+TNS   : -106.041
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider:paddle_clk_gen|temp'
+Slack : -3.666
+TNS   : -644.170
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider:pixel_clk_gen|temp'
+Slack : -1.015
+TNS   : -1.958
+
+Type  : Fast 1200mV 0C Model Setup 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -0.926
+TNS   : -2.140
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.754
+TNS   : -30.179
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider:pixel_clk_gen|temp'
+Slack : -0.108
+TNS   : -0.126
+
+Type  : Fast 1200mV 0C Model Hold 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider:paddle_clk_gen|temp'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ball_speed[0]'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reset'
+Slack : 0.984
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ball_speed[0]'
+Slack : -1.100
+TNS   : -96.175
+
+Type  : Fast 1200mV 0C Model Recovery 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -0.473
+TNS   : -4.699
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_divider:paddle_clk_gen|temp'
+Slack : -0.471
+TNS   : -66.232
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.310
+TNS   : -17.005
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_divider:pixel_clk_gen|temp'
+Slack : -0.275
+TNS   : -2.999
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : -0.253
+TNS   : -8.972
+
+Type  : Fast 1200mV 0C Model Removal 'clock_divider:paddle_clk_gen|temp'
+Slack : -0.127
+TNS   : -9.945
+
+Type  : Fast 1200mV 0C Model Removal 'clock_divider:pixel_clk_gen|temp'
+Slack : -0.123
+TNS   : -1.193
+
+Type  : Fast 1200mV 0C Model Removal 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ball_speed[0]'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ball_speed[0]'
+Slack : -3.000
+TNS   : -147.680
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -87.987
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -4.260
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:paddle_clk_gen|temp'
+Slack : -1.000
+TNS   : -192.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:pixel_clk_gen|temp'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'display_timing_controller:sync_gen_inst|Hsync'
+Slack : -1.000
+TNS   : -12.000
+
+------------------------------------------------------------
